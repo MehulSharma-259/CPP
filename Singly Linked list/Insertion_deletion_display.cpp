@@ -42,8 +42,8 @@ void insertAtPosition(Node* head, int value, int position) {
         temp = temp->next;
         count++;
     }
-    new_node->next = temp->next;
-    temp->next = new_node;
+    new_node->next = temp->next; // assign the address of next node to new_node->next.
+    temp->next = new_node; // changes the value of temp->next to new_node means now temp->next will have the address of new_node.
 
 }
 

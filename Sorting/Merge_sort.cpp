@@ -47,7 +47,7 @@ void merge_sort(int arr[], int l, int r) {
 
 int main() {
 
-    int arr[] = {2, 5, 1, 9, 10, 3, 1, 0, -1};
+    int arr[] = {5, 1, 1, 2, 0, 0};
     int r = (sizeof(arr) / sizeof(arr[0])) - 1;
     int l = 0;
     merge_sort(arr, l, r);

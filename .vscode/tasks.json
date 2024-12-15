@@ -7,6 +7,8 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+                "-std=c++17", // Add this line to enable C++17
+                "-fsanitize=address", // Optional: for AddressSanitizer support
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
